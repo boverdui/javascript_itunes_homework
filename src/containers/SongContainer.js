@@ -27,7 +27,7 @@ class SongContainer extends React.Component {
   render(){
     return (
       <div>
-        <h1>iTunes UK top 20</h1>
+        <h1>iTunes top 20 UK</h1>
         <p className="date">{this.state.date.substring(0,10)}</p>
         <SongList
           songs={this.state.songs}>
